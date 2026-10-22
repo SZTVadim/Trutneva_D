@@ -7,5 +7,3 @@ print(city)
 print(id(name))
 
 print(type(city))
-
-

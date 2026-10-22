@@ -7,16 +7,16 @@ print(type(b))
 print(type(c))
 print(type(d))
 
-text =  "python PROGRAMMING"
-print (text.lower())
-print (text.upper())
-print (text.capitalize())
-print (text.title())
+text = "python PROGRAMMING"
+print(text.lower())
+print(text.upper())
+print(text.capitalize())
+print(text.title())
 
 text = "  Hello World  "
-print (text.strip())
-print (text.lstrip())
-print (text.rstrip())
+print(text.strip())
+print(text.lstrip())
+print(text.rstrip())
 
 text = "яблоко,банан,апельсин,груша"
 fruits = text.split(",")
@@ -46,5 +46,3 @@ print(text[::-1])
 
 print("Он сказал: \"Привет\"")
 print("Первая строка\n   Вторая строка")
-
-
