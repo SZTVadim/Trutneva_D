@@ -29,9 +29,9 @@ new_text = text.replace("Python", "Java")
 print(new_text)
 
 text = "Python программирование на Python"
-print("Python программирование на Python".find("Python"))
-print("Python программирование на Python".count("Python"))
-print("Python программирование на Python".find("Java"))
+print(text.find("Python"))
+print(text.count("Python"))
+print(text.find("Java"))
 
 print("Hello123".isalnum())
 print("12345".isdigit())
@@ -45,4 +45,5 @@ print(text[::2])
 print(text[::-1])
 
 print("Он сказал: \"Привет\"")
-print("Первая строка\n   Вторая строка")
+print("Первая строка\nВторая строка")
+
