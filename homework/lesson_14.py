@@ -42,7 +42,7 @@ class Book:
         return cls(title, author)
 
     def get_info(self):
-        return f"Книга '{self.title}' автор {self.author}, цена {self.price} руб."
+        return f"Книга '{self.title}' автор {self.author}, цена {self.price} руб"
 
 
 print("Создание книг:")
